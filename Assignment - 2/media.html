@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Me</title>
+  </head>
+  <body>
+    <header>
+      <!-- ALT/SOE/024/5323 Ikenna Sam-Lebechukwu -->
+      <h1>Hello and Welcome to Ikenna's Page</h1>
+      <p>Allow me to showcase what I've learnt so far in media</p>
+    </header>
+    <!-- Image Section -->
+    <section>
+      <p>
+        I don't have a picture of myself so i'll just put in the logo I made for
+        my company
+      </p>
+      <picture>
+        <!-- Img for mobile, had to use css because I don't understand how to use srcset and it'd
+              be more fluid/display specific to set an automatic size than to hard limit img size to device type I reckon. -->
+        <img
+          src="./assets/Ctech_logo_000.jpg"
+          alt="Mikatech logo"
+          style="width: 100%; max-width: 400px; max-height: auto"
+        />
+      </picture>
+    </section>
+    <!-- Video Section-->
+    <section>
+      <h2>
+        I dont take videos of myself so here's one of the videos from a python
+        crash course i have downloaded
+      </h2>
+      <!-- USed Css again so the video wouldn't take up the entire page-->
+      <video
+        src="./assets/1.4.mp4"
+        controls
+        style="height: 80%; width: 80%"
+      ></video>
+    </section>
+    <!-- Audio section -->
+    <section>
+      <h3>Heres My favourite song of all time</h3>
+      <audio
+        src="./assets/HOME - Resonance but it's from a parallel universe (Edited version).mp3"
+        controls
+      ></audio>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <p>Thanks for viewing my page</p>
+    </footer>
+  </body>
+</html>
